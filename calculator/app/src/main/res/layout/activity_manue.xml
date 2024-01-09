@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/calculator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Calculator">
+
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/black"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/black"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <TextView
+                android:id="@+id/btn_equal"
+                android:layout_width="263dp"
+                android:layout_height="53dp"
+                android:text="Different Formulas"
+                android:textColor="@color/purple_500"
+                android:textSize="30dp"
+                android:visibility="visible"></TextView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/black"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <TextView
+                android:id="@+id/btn_0"
+                android:layout_width="203dp"
+                android:layout_height="50dp"
+                android:text="Density"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:visibility="visible"></TextView>
+
+            <ImageView
+                android:id="@+id/density"
+                android:layout_width="70dp"
+                android:layout_height="76dp"
+                android:background="@drawable/btn_next"/>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/black"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <TextView
+
+                android:layout_width="203dp"
+                android:layout_height="50dp"
+                android:text="Force"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:visibility="visible"></TextView>
+
+            <ImageView
+                android:id="@+id/force"
+                android:layout_width="70dp"
+                android:layout_height="76dp"
+                android:background="@drawable/btn_next"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/black"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <TextView
+
+                android:layout_width="203dp"
+                android:layout_height="50dp"
+                android:text="Power"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:visibility="visible"></TextView>
+
+            <ImageView
+                android:id="@+id/power"
+                android:layout_width="70dp"
+                android:layout_height="76dp"
+                android:background="@drawable/btn_next"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/black"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <TextView
+
+                android:layout_width="203dp"
+                android:layout_height="50dp"
+                android:text="Weight"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:visibility="visible"></TextView>
+
+            <ImageView
+                android:id="@+id/weight"
+                android:layout_width="70dp"
+                android:layout_height="76dp"
+                android:background="@drawable/btn_next"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/black"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <TextView
+                android:id="@+id/btn_no"
+                android:layout_width="203dp"
+                android:layout_height="50dp"
+                android:text="Pressure"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:visibility="visible"></TextView>
+
+            <ImageView
+                android:id="@+id/pressure"
+                android:layout_width="70dp"
+                android:layout_height="76dp"
+                android:background="@drawable/btn_next"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/black"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <TextView
+
+                android:layout_width="203dp"
+                android:layout_height="50dp"
+                android:text="Kinetic Energy"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:visibility="visible"></TextView>
+
+            <ImageView
+                android:id="@+id/ke"
+                android:layout_width="70dp"
+                android:layout_height="76dp"
+                android:background="@drawable/btn_next"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/black"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <TextView
+
+                android:layout_width="203dp"
+                android:layout_height="50dp"
+                android:text="Frequency"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:visibility="visible">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/freq"
+                android:layout_width="70dp"
+                android:layout_height="76dp"
+                android:background="@drawable/btn_next"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/black"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <TextView
+
+                android:layout_width="203dp"
+                android:layout_height="wrap_content"
+                android:text="degree to F"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:visibility="visible"></TextView>
+
+            <ImageView
+                android:id="@+id/dtof"
+                android:layout_width="70dp"
+                android:layout_height="76dp"
+                android:background="@drawable/btn_next"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/black"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <TextView
+
+                android:layout_width="203dp"
+                android:layout_height="wrap_content"
+                android:text="Voltage"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:visibility="visible"></TextView>
+
+            <ImageView
+                android:id="@+id/voltage"
+                android:layout_width="70dp"
+                android:layout_height="76dp"
+                android:background="@drawable/btn_next"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/black"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <TextView
+
+                android:layout_width="203dp"
+                android:layout_height="wrap_content"
+                android:text="Velosity"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:visibility="visible"></TextView>
+
+            <ImageView
+                android:id="@+id/velosity"
+                android:layout_width="70dp"
+                android:layout_height="76dp"
+                android:background="@drawable/btn_next">
+
+
+            </ImageView>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/black"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+            <TextView
+
+                android:layout_width="203dp"
+                android:layout_height="wrap_content"
+                android:text="Calculator"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:visibility="visible"></TextView>
+
+            <ImageView
+                android:id="@+id/btn_next"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+
+                android:background="@drawable/btn_next">
+
+            </ImageView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
